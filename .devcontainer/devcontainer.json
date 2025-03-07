@@ -6,11 +6,13 @@
   "features": {},
   "customizations": {
     "vscode": {
-      "terminal.integrated.defaultProfile.linux": "/bin/zsh",
-      "terminal.integrated.profiles.linux": {
-        "zsh": {
-          "path": "/bin/zsh",
-          "icon": "terminal-zsh"
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh",
+        "terminal.integrated.profiles.linux": {
+          "zsh": {
+            "path": "/bin/zsh",
+            "icon": "terminal-zsh"
+          }
         }
       }
     }
