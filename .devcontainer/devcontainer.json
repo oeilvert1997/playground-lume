@@ -4,6 +4,16 @@
     "context": "."
   },
   "features": {},
-  "customizations": {},
+  "customizations": {
+    "vscode": {
+      "terminal.integrated.defaultProfile.linux": "/bin/zsh",
+      "terminal.integrated.profiles.linux": {
+        "zsh": {
+          "path": "/bin/zsh",
+          "icon": "terminal-zsh"
+        }
+      }
+    }
+  },
   "postCreateCommand": {}
 }
