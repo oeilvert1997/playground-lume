@@ -13,8 +13,12 @@
             "path": "/bin/zsh",
             "icon": "terminal-zsh"
           }
-        }
-      }
+        },
+        "deno.enable": "true"
+      },
+      "extensions": [
+        "denoland.vscode-deno"
+      ]
     }
   },
   "postCreateCommand": {}
