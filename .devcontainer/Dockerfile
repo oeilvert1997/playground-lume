@@ -12,4 +12,8 @@ USER vscode
 
 RUN mkdir -p ~/.zsh/completion \
   && touch ~/.zsh/completion/_deno \
-  && deno completions zsh > ~/.zsh/completion/_deno
+  && deno completions zsh > ~/.zsh/completion/_deno \
+  && echo '' >> ~/.zshrc \
+  && echo 'fpath=(~/.zsh/completion $fpath)' >> ~/.zshrc \
+  && echo 'autoload -U compinit' >> ~/.zshrc \
+  && echo 'compinit' >> ~/.zshrc
