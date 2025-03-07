@@ -8,4 +8,8 @@ FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
 RUN curl -fsSL https://deno.land/install.sh | DENO_INSTALL=/usr/local sh
 
-RUN deno completions zsh > ~/.zsh/completion/_deno
+USER vscode
+
+RUN mkdir -p ~/.zsh/completion \
+  && touch ~/.zsh/completion/_deno \
+  && deno completions zsh > ~/.zsh/completion/_deno
