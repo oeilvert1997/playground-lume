@@ -1,0 +1,9 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "features": {},
+  "customizations": {},
+  "postCreateCommand": {}
+}
