@@ -13,9 +13,7 @@
             "path": "/bin/zsh",
             "icon": "terminal-zsh"
           }
-        },
-        "deno.enable": true,
-        "deno.path": "/usr/local/bin/deno"
+        }
       },
       "extensions": [
         "denoland.vscode-deno"
