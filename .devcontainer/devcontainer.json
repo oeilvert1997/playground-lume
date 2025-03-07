@@ -14,7 +14,7 @@
             "icon": "terminal-zsh"
           }
         },
-        "deno.enable": "true"
+        "deno.enable": true
       },
       "extensions": [
         "denoland.vscode-deno"
